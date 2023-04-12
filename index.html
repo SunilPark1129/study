@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="text">
+            <p></p>
+        </div>
+        <div id="next">
+            <button onclick="nextClickHandler('prev')"><</button>
+            <button onclick="nextClickHandler('next')">></button>
+        </div>
+        <p id="page">0/30</p>
+        <div id="btns">
+            <button onclick="categoryClickHandler('code',0)">CODE</button>
+            <button onclick="categoryClickHandler('word',1)">WORD</button>
+            <button onclick="categoryClickHandler('personal',2)">PERSONAL</button>
+            <button onclick="categoryClickHandler('ask',3)">ASK</button>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
