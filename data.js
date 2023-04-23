@@ -1,7 +1,6 @@
 const code = [
-  "Why do we use state instead of variable?",
-  "What are the various Data Types of JS?",
   "What Is 'State' in ReactJS?",
+  "What are the various Data Types of JS?",
   "What is difference between for-loop and forEach() ?",
   "What is the difference between let and var?",
   "How do you check if it is array or not?",
@@ -24,11 +23,12 @@ const code = [
   "Shallow Copy and Deep Copy",
   "What is DOM?",
   "Static Sites, CSR, SSR",
+  "What is REST API?",
   "What is Node.js?",
   "What is Cross-browser compatibility?",
   "What are Asynchronous and Synchronous",
   "What is the keyword `this`?",
-  "What is Cross-browser compatibility",
+  "What is CRUD?",
   "Can you explain how you would optimize the load time of a web page?",
   "How do you approach accessibility when building a website?",
   "How do you use version control systems, such as Git, in your workflow?",
@@ -74,6 +74,7 @@ const word = [
   "Vital",
   "Disregard",
   "Regarded",
+  "mutable / imutable",
 ];
 
 const personal = [
