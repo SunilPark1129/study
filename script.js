@@ -46,6 +46,25 @@ function nextClickHandler(id) {
   locatedIdx();
 }
 
+function randomRecursion(arr, newArr = []) {
+  if (arr.length === 0) {
+    return;
+  }
+  const ranNum = Math.floor(Math.random() * arr.length);
+  newArr.push(arr.splice(ranNum, 1)[0]);
+  randomRecursion(arr, newArr);
+
+  return newArr;
+}
+
+function randomClickHandler() {
+  const newArr = [...question()];
+  const output = randomRecursion(newArr);
+  setQuestion(output);
+  setCurrentPosition(0);
+  locatedIdx();
+}
+
 function locatedIdx() {
   text.innerHTML = question()[currentPosition()];
   page.innerHTML = `${currentPosition() + 1} / ${question().length}`;
