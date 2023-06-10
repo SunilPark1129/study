@@ -10,7 +10,6 @@ const code = [
   "What is Reference types",
   "What is Version Control?",
   "What is Difference between div and span?",
-  "Mention three ways to decrease page load time?",
   "What is attribute?",
   "What is React JS?",
   "What is Bubbling and Capturing Event?",
@@ -29,17 +28,15 @@ const code = [
   "What is Cross-browser compatibility?",
   "What are Asynchronous and Synchronous",
   "What is the keyword `this`?",
-  "What is CRUD?",
-  "Can you explain how you would optimize the load time of a web page?",
   "How do you approach accessibility when building a website?",
-  "How do you use version control systems, such as Git, in your workflow?",
   "Can you describe a project you have worked on that required you to use responsive design?",
   "How do you approach security when building web application?",
   "What is IIFE?",
   "What is ES6?",
-  "Destructuring Assignment",
+  "What is Destructuring Assignment?",
   "What is OOP?",
   "What is Call Stack?",
+  "What is Separate Operator?",
 ];
 
 const word = [
